@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC34EC00197104E900309A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC34EBFF197104E900309A95 /* Foundation.framework */; };
+		BC34EC02197104E900309A95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC34EC01197104E900309A95 /* CoreGraphics.framework */; };
+		BC34EC04197104E900309A95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC34EC03197104E900309A95 /* UIKit.framework */; };
+		BC34EC0A197104E900309A95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC34EC08197104E900309A95 /* InfoPlist.strings */; };
+		BC34EC0C197104E900309A95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC34EC0B197104E900309A95 /* main.m */; };
+		BC34EC10197104E900309A95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC34EC0F197104E900309A95 /* AppDelegate.m */; };
+		BC34EC12197104E900309A95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC34EC11197104E900309A95 /* Images.xcassets */; };
+		BC34EC19197104E900309A95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC34EC18197104E900309A95 /* XCTest.framework */; };
+		BC34EC1A197104E900309A95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC34EBFF197104E900309A95 /* Foundation.framework */; };
+		BC34EC1B197104E900309A95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC34EC03197104E900309A95 /* UIKit.framework */; };
+		BC34EC23197104E900309A95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC34EC21197104E900309A95 /* InfoPlist.strings */; };
+		BC34EC25197104E900309A95 /* HackCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC34EC24197104E900309A95 /* HackCircleTests.m */; };
+		BC34EC32197104F800309A95 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BC34EC2F197104F800309A95 /* LICENSE */; };
+		BC34EC33197104F800309A95 /* UICircularSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = BC34EC31197104F800309A95 /* UICircularSlider.m */; };
+		BC34EC371971055100309A95 /* UiCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC34EC351971055100309A95 /* UiCircleViewController.m */; };
+		BC34EC381971055100309A95 /* UiCircleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC34EC361971055100309A95 /* UiCircleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC34EC1C197104E900309A95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC34EBF4197104E900309A95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC34EBFB197104E900309A95;
+			remoteInfo = HackCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC34EBFC197104E900309A95 /* HackCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC34EBFF197104E900309A95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC34EC01197104E900309A95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC34EC03197104E900309A95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC34EC07197104E900309A95 /* HackCircle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackCircle-Info.plist"; sourceTree = "<group>"; };
+		BC34EC09197104E900309A95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC34EC0B197104E900309A95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC34EC0D197104E900309A95 /* HackCircle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackCircle-Prefix.pch"; sourceTree = "<group>"; };
+		BC34EC0E197104E900309A95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC34EC0F197104E900309A95 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC34EC11197104E900309A95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC34EC17197104E900309A95 /* HackCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC34EC18197104E900309A95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BC34EC20197104E900309A95 /* HackCircleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HackCircleTests-Info.plist"; sourceTree = "<group>"; };
+		BC34EC22197104E900309A95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC34EC24197104E900309A95 /* HackCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HackCircleTests.m; sourceTree = "<group>"; };
+		BC34EC2F197104F800309A95 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BC34EC30197104F800309A95 /* UICircularSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICircularSlider.h; sourceTree = "<group>"; };
+		BC34EC31197104F800309A95 /* UICircularSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICircularSlider.m; sourceTree = "<group>"; };
+		BC34EC341971055100309A95 /* UiCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UiCircleViewController.h; sourceTree = "<group>"; };
+		BC34EC351971055100309A95 /* UiCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UiCircleViewController.m; sourceTree = "<group>"; };
+		BC34EC361971055100309A95 /* UiCircleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UiCircleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC34EBF9197104E900309A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34EC02197104E900309A95 /* CoreGraphics.framework in Frameworks */,
+				BC34EC04197104E900309A95 /* UIKit.framework in Frameworks */,
+				BC34EC00197104E900309A95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34EC14197104E900309A95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34EC19197104E900309A95 /* XCTest.framework in Frameworks */,
+				BC34EC1B197104E900309A95 /* UIKit.framework in Frameworks */,
+				BC34EC1A197104E900309A95 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC34EBF3197104E900309A95 = {
+			isa = PBXGroup;
+			children = (
+				BC34EC05197104E900309A95 /* HackCircle */,
+				BC34EC1E197104E900309A95 /* HackCircleTests */,
+				BC34EBFE197104E900309A95 /* Frameworks */,
+				BC34EBFD197104E900309A95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC34EBFD197104E900309A95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC34EBFC197104E900309A95 /* HackCircle.app */,
+				BC34EC17197104E900309A95 /* HackCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC34EBFE197104E900309A95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC34EBFF197104E900309A95 /* Foundation.framework */,
+				BC34EC01197104E900309A95 /* CoreGraphics.framework */,
+				BC34EC03197104E900309A95 /* UIKit.framework */,
+				BC34EC18197104E900309A95 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC34EC05197104E900309A95 /* HackCircle */ = {
+			isa = PBXGroup;
+			children = (
+				BC34EC2E197104F800309A95 /* UICircularSlider */,
+				BC34EC0E197104E900309A95 /* AppDelegate.h */,
+				BC34EC0F197104E900309A95 /* AppDelegate.m */,
+				BC34EC341971055100309A95 /* UiCircleViewController.h */,
+				BC34EC351971055100309A95 /* UiCircleViewController.m */,
+				BC34EC361971055100309A95 /* UiCircleViewController.xib */,
+				BC34EC11197104E900309A95 /* Images.xcassets */,
+				BC34EC06197104E900309A95 /* Supporting Files */,
+			);
+			path = HackCircle;
+			sourceTree = "<group>";
+		};
+		BC34EC06197104E900309A95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC34EC07197104E900309A95 /* HackCircle-Info.plist */,
+				BC34EC08197104E900309A95 /* InfoPlist.strings */,
+				BC34EC0B197104E900309A95 /* main.m */,
+				BC34EC0D197104E900309A95 /* HackCircle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC34EC1E197104E900309A95 /* HackCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC34EC24197104E900309A95 /* HackCircleTests.m */,
+				BC34EC1F197104E900309A95 /* Supporting Files */,
+			);
+			path = HackCircleTests;
+			sourceTree = "<group>";
+		};
+		BC34EC1F197104E900309A95 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC34EC20197104E900309A95 /* HackCircleTests-Info.plist */,
+				BC34EC21197104E900309A95 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC34EC2E197104F800309A95 /* UICircularSlider */ = {
+			isa = PBXGroup;
+			children = (
+				BC34EC2F197104F800309A95 /* LICENSE */,
+				BC34EC30197104F800309A95 /* UICircularSlider.h */,
+				BC34EC31197104F800309A95 /* UICircularSlider.m */,
+			);
+			path = UICircularSlider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC34EBFB197104E900309A95 /* HackCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC34EC28197104E900309A95 /* Build configuration list for PBXNativeTarget "HackCircle" */;
+			buildPhases = (
+				BC34EBF8197104E900309A95 /* Sources */,
+				BC34EBF9197104E900309A95 /* Frameworks */,
+				BC34EBFA197104E900309A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HackCircle;
+			productName = HackCircle;
+			productReference = BC34EBFC197104E900309A95 /* HackCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC34EC16197104E900309A95 /* HackCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC34EC2B197104E900309A95 /* Build configuration list for PBXNativeTarget "HackCircleTests" */;
+			buildPhases = (
+				BC34EC13197104E900309A95 /* Sources */,
+				BC34EC14197104E900309A95 /* Frameworks */,
+				BC34EC15197104E900309A95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC34EC1D197104E900309A95 /* PBXTargetDependency */,
+			);
+			name = HackCircleTests;
+			productName = HackCircleTests;
+			productReference = BC34EC17197104E900309A95 /* HackCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC34EBF4197104E900309A95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					BC34EC16197104E900309A95 = {
+						TestTargetID = BC34EBFB197104E900309A95;
+					};
+				};
+			};
+			buildConfigurationList = BC34EBF7197104E900309A95 /* Build configuration list for PBXProject "HackCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC34EBF3197104E900309A95;
+			productRefGroup = BC34EBFD197104E900309A95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC34EBFB197104E900309A95 /* HackCircle */,
+				BC34EC16197104E900309A95 /* HackCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC34EBFA197104E900309A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34EC32197104F800309A95 /* LICENSE in Resources */,
+				BC34EC0A197104E900309A95 /* InfoPlist.strings in Resources */,
+				BC34EC381971055100309A95 /* UiCircleViewController.xib in Resources */,
+				BC34EC12197104E900309A95 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34EC15197104E900309A95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34EC23197104E900309A95 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC34EBF8197104E900309A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34EC33197104F800309A95 /* UICircularSlider.m in Sources */,
+				BC34EC10197104E900309A95 /* AppDelegate.m in Sources */,
+				BC34EC371971055100309A95 /* UiCircleViewController.m in Sources */,
+				BC34EC0C197104E900309A95 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC34EC13197104E900309A95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC34EC25197104E900309A95 /* HackCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC34EC1D197104E900309A95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC34EBFB197104E900309A95 /* HackCircle */;
+			targetProxy = BC34EC1C197104E900309A95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC34EC08197104E900309A95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC34EC09197104E900309A95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC34EC21197104E900309A95 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC34EC22197104E900309A95 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC34EC26197104E900309A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC34EC27197104E900309A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC34EC29197104E900309A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackCircle/HackCircle-Prefix.pch";
+				INFOPLIST_FILE = "HackCircle/HackCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC34EC2A197104E900309A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackCircle/HackCircle-Prefix.pch";
+				INFOPLIST_FILE = "HackCircle/HackCircle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BC34EC2C197104E900309A95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackCircle.app/HackCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackCircle/HackCircle-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HackCircleTests/HackCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BC34EC2D197104E900309A95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HackCircle.app/HackCircle";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HackCircle/HackCircle-Prefix.pch";
+				INFOPLIST_FILE = "HackCircleTests/HackCircleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC34EBF7197104E900309A95 /* Build configuration list for PBXProject "HackCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC34EC26197104E900309A95 /* Debug */,
+				BC34EC27197104E900309A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC34EC28197104E900309A95 /* Build configuration list for PBXNativeTarget "HackCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC34EC29197104E900309A95 /* Debug */,
+				BC34EC2A197104E900309A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC34EC2B197104E900309A95 /* Build configuration list for PBXNativeTarget "HackCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC34EC2C197104E900309A95 /* Debug */,
+				BC34EC2D197104E900309A95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC34EBF4197104E900309A95 /* Project object */;
+}
