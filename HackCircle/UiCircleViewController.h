@@ -14,4 +14,7 @@
 @property (weak, nonatomic) IBOutlet UICircularSlider *circularSlider;
 
 @property (weak, nonatomic) IBOutlet UILabel *circleNum;
+@property (nonatomic, assign) NSInteger playCount;
+- (IBAction)tick:(UIButton *)sender;
+
 @end

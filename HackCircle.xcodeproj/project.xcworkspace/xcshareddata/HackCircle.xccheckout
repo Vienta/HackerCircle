@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>51D52830-0D6B-43A9-B251-7F4F137D8D99</string>
+	<string>E29AA959-A3F4-46B9-914C-D62AFE4ED4F2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>HackCircle</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5CD474CA-B1C3-449E-8203-B116706E51F5</key>
-		<string>ssh://github.com/Vienta/HackerCircle.git</string>
+		<key>85AD15A0-A696-415F-838A-CEB81C905FFC</key>
+		<string>https://github.com/Vienta/HackerCircle</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>HackCircle.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5CD474CA-B1C3-449E-8203-B116706E51F5</key>
+		<key>85AD15A0-A696-415F-838A-CEB81C905FFC</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/Vienta/HackerCircle.git</string>
+	<string>https://github.com/Vienta/HackerCircle</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5CD474CA-B1C3-449E-8203-B116706E51F5</string>
+	<string>85AD15A0-A696-415F-838A-CEB81C905FFC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5CD474CA-B1C3-449E-8203-B116706E51F5</string>
+			<string>85AD15A0-A696-415F-838A-CEB81C905FFC</string>
 			<key>IDESourceControlWCCName</key>
-			<string>HackCircle</string>
+			<string>HackerCircle</string>
 		</dict>
 	</array>
 </dict>

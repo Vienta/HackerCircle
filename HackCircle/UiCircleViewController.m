@@ -54,6 +54,10 @@
     //分钟计算
 //    self.circularSlider.circleCount  + self.circularSlider.value;
 //    self.circularSlider.circleCount;一个小时
+    
+    self.playCount = ((int)(self.circularSlider.value * 60) + self.circularSlider.circleCount*60)*60;
+    
+    self.circleNum.text = [self progressValue:self.playCount  andType:0];
 
 }
 
@@ -68,8 +72,39 @@
     
 }
 
+-(NSString *)progressValue:(double)value andType:(NSInteger)type
+{
+    int hour = value/3600;
+    
+    int min = ((int)value%3600)/60;
+    
+    int sec = ((int)value%3600)%60;
+    
+    NSString *resultStr = nil;
+    if (hour == 0) {
+        if (type == 0) {
+            resultStr=[NSString stringWithFormat:@"%02d:00",min];
+        }else{
+            resultStr=[NSString stringWithFormat:@"%02d:%02d",min,sec];
+        }
+    }else{
+        if (type == 0) {
+            resultStr=[NSString stringWithFormat:@"%d小时%02d:00",hour,min];
+        }else{
+            resultStr=[NSString stringWithFormat:@"%d小时%02d:%02d",hour,min,sec];
+        }
+    }
+    return resultStr;
+}
 
-
+-(void)tickCount
+{
+    self.playCount -- ;
+    if (self.playCount <= 0) {
+        return;
+    }
+    self.circleNum.text = [self progressValue:self.playCount andType:1];
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -77,4 +112,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)tick:(UIButton *)sender {
+    [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(tickCount) userInfo:nil repeats:YES];
+}
 @end
