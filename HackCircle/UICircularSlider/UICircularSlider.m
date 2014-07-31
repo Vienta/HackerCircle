@@ -217,12 +217,25 @@
 			break;
         }
 		case UICircularSliderStyleCircle:
-		default:
+		default:{
 			[self.maximumTrackTintColor setStroke];
 			[self drawCircularTrack:self.maximumValue atPoint:middlePoint withRadius:radius inContext:context];
 			[self.minimumTrackTintColor setStroke];
 			self.thumbCenterPoint = [self drawCircularTrack:self.value atPoint:middlePoint withRadius:radius inContext:context];
+            
+            NSInteger cn = 0;
+            if (self.circleCount >= 8) {
+                cn = 8;
+            } else {
+                cn = self.circleCount;
+            }
+            for (int idx= 0; idx < cn; idx++) {
+                [self drawCircularTrack:self.maximumValue atPoint:middlePoint withRadius:radius - 15 * (idx+1) inContext:context];
+            }
+            
+            
 			break;
+        }
 	}
 	
 	[self.thumbTintColor setFill];
@@ -261,7 +274,7 @@
                 angle = 0;
                 self.preAngle = 0;
             } else {
-                NSLog(@"圈圈：%@",@(angle));
+
                 if (self.preAngle-angle >= M_PI) {
                     self.circleCount += 1;
                 }
@@ -271,8 +284,6 @@
                 }
                 
                 self.preAngle = angle;
-                
-                
             }
         
             [[NSNotificationCenter defaultCenter] postNotificationName:@"CircleNumber" object:nil userInfo:NULL];
@@ -321,14 +332,6 @@
     }
 }
 
-- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [super touchesMoved:touches withEvent:event];
-    
-//    if (self.isContinuous) {
-        [self sendActionsForControlEvents:UIControlEventValueChanged];
-//    }
-}
 
 @end
 
