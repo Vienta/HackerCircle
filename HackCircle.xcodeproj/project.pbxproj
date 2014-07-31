@@ -326,7 +326,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yongxing shu (E3Q4M27Q67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yongxing shu (E3Q4M27Q67)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -344,6 +345,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "DFDE58EB-ECA0-4504-BC11-BFE2066B579C";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -364,7 +366,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: yongxing shu (E3Q4M27Q67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: yongxing shu (E3Q4M27Q67)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -375,6 +378,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PROVISIONING_PROFILE = "DFDE58EB-ECA0-4504-BC11-BFE2066B579C";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -389,6 +393,7 @@
 				GCC_PREFIX_HEADER = "HackCircle/HackCircle-Prefix.pch";
 				INFOPLIST_FILE = "HackCircle/HackCircle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DFDE58EB-ECA0-4504-BC11-BFE2066B579C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,6 +407,7 @@
 				GCC_PREFIX_HEADER = "HackCircle/HackCircle-Prefix.pch";
 				INFOPLIST_FILE = "HackCircle/HackCircle-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "DFDE58EB-ECA0-4504-BC11-BFE2066B579C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,6 +471,7 @@
 				BC34EC2A197104E900309A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC34EC2B197104E900309A95 /* Build configuration list for PBXNativeTarget "HackCircleTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +480,7 @@
 				BC34EC2D197104E900309A95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

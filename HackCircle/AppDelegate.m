@@ -17,7 +17,6 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     UiCircleViewController *cVC = [[UiCircleViewController alloc]init];
-    
     self.window.rootViewController = cVC;
     [self.window makeKeyAndVisible];
     return YES;
